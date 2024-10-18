@@ -3,7 +3,21 @@
   "version": "1.0.0",
   "description": "This backend allows users to manage their workload. After making an account, a user will be able to create, read, update, and delete their tasks.",
   "main": "server.js",
-  "scripts": {},
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.7",
+    "prisma": "^5.21.0"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.0.3",
+    "@prisma/client": "^5.21.0",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "jsonwebtoken": "^9.0.2"
+  }
 }
